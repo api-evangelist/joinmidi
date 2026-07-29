@@ -1,7 +1,14 @@
 aid: joinmidi
 name: Joinmidi
-description: Joinmidi is a company surfaced as a portfolio company of felicis and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Joinmidi (Midi Health) is a virtual care company for women in midlife, providing insurance-covered
+  telehealth from women's health specialists across all 50 states. Its clinicians deliver personalized,
+  evidence-based care for perimenopause and menopause plus weight management, sexual wellness, mood,
+  sleep, hair and skin health, and cancer survivorship, backed by custom prescription medications
+  (Midi Custom Rx) and a targeted supplement line. Midi is NCQA accredited, works with major insurance
+  plans, and partners with health systems and Fortune 100 employers as a covered benefit. Surfaced as a
+  portfolio company of Felicis and added to the API Evangelist network; no public developer or API
+  surface is currently published.
 url: https://raw.githubusercontent.com/api-evangelist/joinmidi/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +16,29 @@ x-backed-by:
 - felicis
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
+image: https://images.prismic.io/joinmidi-marketing/Z92tBjxkOkZ2kJPK_3-clinician-1x1.jpg?auto=format%2Ccompress&w=1200
 tags:
 - Company
+- Healthcare
+- Telehealth
+- Women's Health
+- Menopause
+- Digital Health
+- Femtech
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +46,28 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/joinmidi-domain-security.yml
 - type: Website
   url: https://joinmidi.com
+- type: Pricing
+  url: https://joinmidi.com/pricing-insurance
+- type: TermsOfService
+  url: https://joinmidi.com/legals/terms-and-conditions
+- type: PrivacyPolicy
+  url: https://joinmidi.com/legals/privacy-policy
+- type: Blog
+  url: https://joinmidi.com/blog
+- type: Support
+  url: https://joinmidi.com/contact-us
+- type: HelpCenter
+  url: https://joinmidi.zendesk.com/hc/en-us
+- type: SignUp
+  url: https://app.prod.joinmidi.com/registration/welcome/
+- type: Login
+  url: https://app.prod.joinmidi.com/login/
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
